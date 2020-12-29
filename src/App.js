@@ -1,9 +1,15 @@
 import './App.css';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Lets build a Whatsapp Clone!</h1>
+    <div className="app">
+      <div className="app__body">
+        <Sidebar/>
+        {/* CHAT */}
+
+      </div>
+
     </div>
   );
 }
